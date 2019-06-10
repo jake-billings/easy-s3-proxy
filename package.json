@@ -1,23 +1,32 @@
 {
-  "name": "s3-proxy",
-  "version": "1.1.1",
-  "description":
-    "Streaming http proxy Express middleware for fetching objects from S3",
+  "name": "easy-s3-proxy",
+  "version": "1.1.2",
+  "description": "Streaming http proxy Express middleware for fetching objects from S3",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --bail --check-leaks test/",
-    "test-cov":
-      "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
-    "test-travis":
-      "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dvonlehman/s3-proxy"
   },
-  "keywords": ["express", "middleware", "aws", "s3", "proxy"],
-  "files": ["index.js", "lib"],
-  "author": "David Von Lehman (https://github.com/dvonlehman)",
+  "keywords": [
+    "express",
+    "middleware",
+    "aws",
+    "s3",
+    "proxy"
+  ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "author": [
+    "David Von Lehman (https://github.com/dvonlehman)"
+    "Jake Billings (https://github.com/jake-billings)"
+  ],
   "license": "Apache-2.0",
   "homepage": "https://github.com/dvonlehman/s3-proxy",
   "dependencies": {
