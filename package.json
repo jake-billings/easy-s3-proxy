@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvonlehman/s3-proxy"
+    "url": "https://github.com/jake-billings/easy-s3-proxy"
   },
   "keywords": [
     "express",
@@ -28,7 +28,7 @@
     "Jake Billings (https://github.com/jake-billings)"
   ],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/dvonlehman/s3-proxy",
+  "homepage": "https://github.com/jake-billings/easy-s3-proxy",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "aws-config": "^1.0.7",
