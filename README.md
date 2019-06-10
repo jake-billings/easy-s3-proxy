@@ -3,7 +3,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-This package is a slight modification of David Von Lehman [s3-proxy](https://github.com/dvonlehman/s3-proxy) library. All I added was the `defaultKey` flag. This allows you to serve `index.html` on the `/` route.
+This package is a slight modification of David Von Lehman's [s3-proxy](https://github.com/dvonlehman/s3-proxy) library. All I added was the `defaultKey` flag. This allows you to serve `index.html` on the `/` route.
 
 S3 proxy middleware for returning S3 objects Express apps. Useful for streaming media files and data files from S3 without having to configure web hosting on the entire origin bucket. You can explicitly override the cache headers of the underlying S3 objects.
 
